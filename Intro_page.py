@@ -45,7 +45,7 @@ def show_Intro_page():
         st.write("")
 
     with col2:
-        image = 'https://raw.githubusercontent.com/AI-N/Fair-SRS-Demo/main/framework.jpg'
+        image = 'https://raw.githubusercontent.com/AI-N/fair-srs-app/main/framework.jpg'
         st.image(image, caption="""The main framework of the proposed Fair-SRS model. Fair-SRS 
             consists of two main phases: GGNN to represent user's session graph with a single vector,
             and DeepWalk to encode each node with its own vector representation. The obtained node embeddings
