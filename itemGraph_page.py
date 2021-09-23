@@ -17,6 +17,6 @@ def show_itemGraph_page():
     #physics = st.checkbox('add physics interactivity?')
     #physics = False
     #ITEMnetPyvis.ITEMnet_func(physics)
-    HtmlFile = open("https://raw.githubusercontent.com/AI-N/fair-srs-app/main/GraphRepresentationOfItems.html", 'r', encoding='utf-8')
+    HtmlFile = open("GraphRepresentationOfItems.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read()
     components.html(source_code, height=1200, width=1000)
