@@ -10,3 +10,7 @@ Fair-SRS provides personalized and diversified recommendations in two main steps
 In real-world scenarios, **users** tend to interact with more or less contents in different times and **providers** expect to receive more exposure for their items. 
 
 To achieve the objectives of both sides, the proposed Fair-SRS optimizes recommendations by making a trade-off between **accuracy** and **personalized diversity**.
+
+Demo link:
+
+https://share.streamlit.io/ai-n/fair-srs-app/main/Fair_SRS_app.py 
