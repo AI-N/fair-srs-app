@@ -386,6 +386,7 @@ def show_recommendation_page():
 
 
         st.write("""Feel free to choose another user and see the results! You can find the comparison of Fair-SRS with existing works in the paper!""")
+        st.write("""Choose **'Item Network'** from left box to see the graph vizualization of all items. Zoom in and click on nodes to see their neighbor items!""")
         st.write("""Note that the results are different from the paper as in this demo we use a **sub sample of dataset** to make it run faster!""")
 
 
