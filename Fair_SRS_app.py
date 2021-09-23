@@ -1,6 +1,6 @@
 import streamlit as st
 
-from Intro_page import show_Intro_page
+from Introd_page import show_Intro_page
 from recommendation_page import show_recommendation_page
 from itemGraph_page import show_itemGraph_page
 
