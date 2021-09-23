@@ -1,4 +1,4 @@
-# fair-srs-app
+# Fair-SRS
 
 This is a demonstrates for **Fair-SRS**, a Fair Session-based Recommendation System that predicts user’s next click based on their historical and current session sequences of click behaviour.
 Fair-SRS provides personalized and diversified recommendations in two main steps: 
