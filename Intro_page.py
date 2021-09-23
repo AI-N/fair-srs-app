@@ -27,7 +27,7 @@ def show_Intro_page():
         st.write("")
 
     with col2:
-        image = 'https://raw.githubusercontent.com/AI-N/Fair-SRS-Demo/main/example1.jpg'
+        image = 'https://raw.githubusercontent.com/AI-N/fair-srs-app/main/example1.jpg'
         st.image(image, caption="""A toy example to illustrate some characteristics of session-based
             recommendation systems for a selected user: various user interests in historical sessions 
             (session 1, session 2, and session 3 here) and current session, the order dependency of items,
