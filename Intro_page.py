@@ -3,7 +3,7 @@ import streamlit as st
 
 def show_Intro_page():
     st.write("""
-    #  About this demo for Fair-SRS model:
+    #  About Fair-SRS demo:
     This is a demonstration for **Fair-SRS**, a Fair Session-based Recommendation System that 
     predicts user’s next click based on their historical and current session sequences of click behaviour.
      Fair-SRS provides personalized and diversified recommendations in two main steps: 
