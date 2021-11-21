@@ -29,4 +29,3 @@ This dashboard demonstrate Fair-SRS in three pages: (1)"**About Fair-SRS**", (2)
 3. In the third page (**Item Network**), the item network is visualized (give it few minutes to show up). This network shows all clicked items in the sample data. we use Pyvis and NetworkX libraries for graph visualization. It can be zoomed in and out so that people can click on nodes and see their connected items.
 
 Hope you liked our demo! :)
-
