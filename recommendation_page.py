@@ -11,7 +11,7 @@ def show_recommendation_page():
     dataset = 'https://raw.githubusercontent.com/AI-N/fair-srs-app/main/data/sample.csv'
     df = pd.read_csv(dataset, delimiter=',')
 
-    user = st.slider('user', min_value=0, max_value=df['user'].max(), value=67)  # this is a widget
+    user = st.slider('user', min_value=0, max_value=int(df['user'].max()), value=67)  # this is a widget
     # user = st.selectbox("select a user", ("user 1", "user 2", "user 3"))
     st.write('The selected user_id: ', user)
 
