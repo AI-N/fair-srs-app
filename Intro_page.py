@@ -64,7 +64,7 @@ def show_Intro_page():
     st.write("""Also, you can click '**Item network**' if you want to see the graph visualization of all Items in the system. We use this graph embedding
     to find the similarity of items in each user's current session and accordingly to find user's level of interest in diversity.
     This can help the recommender to figure out how explorer or focused is the users in that specific sessin.""")
-    st.write("The source code is available at https://github.com/AI-RSs/Fair-SRS")
+    st.write("The source code is available at https://github.com/AI-N/fair-srs-app")
     # page1 = st.selectbox("select an option", ("Top-k recommendations", "Item network"))
     # if page1 == "Top-k recommendations":
     #    recommendation_page()
