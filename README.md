@@ -1,6 +1,6 @@
 # Fair-SRS
 
-This is a demonstrates for **Fair-SRS**, a Fair Session-based Recommendation System that predicts user’s next click based on their historical and current session sequences of click behaviour.
+This is a demonstrates for **Fair-SRS**, accepted in WSDM'22. Fair-SRS is a Fair Session-based Recommendation System that predicts user’s next click based on their historical and current session sequences of click behaviour.
 Fair-SRS provides personalized and diversified recommendations in two main steps: 
 
 1. forming user's session graph embeddings based on their long- and short-term interests, and
