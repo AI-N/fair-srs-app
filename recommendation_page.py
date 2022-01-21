@@ -364,18 +364,18 @@ def show_recommendation_page():
         # top-5:
         be = list(set([item for sublist in scores5_ind1 for item in sublist]))
         af = list(set([item for sublist in scores5_ind_new for item in sublist]))
-        st.write("Recall@5:", round(best_result[0], 4), "  MMR@5:", round(best_result[1], 4),
+        st.write("Recall@5:", round(best_result[0], 4), "  MRR@5:", round(best_result[1], 4),
                  "  Cov_unpop@5:", round(sum(pd.Series(af).isin(lt)) / len(lt), 4))
 
         # top-10:
         be = list(set([item for sublist in scores10_ind1 for item in sublist]))
         af = list(set([item for sublist in scores10_ind_new for item in sublist]))
-        st.write("Recall@10:", round(best_result[2], 4), "  MMR@10:", round(best_result[3], 4),
+        st.write("Recall@10:", round(best_result[2], 4), "  MRR@10:", round(best_result[3], 4),
                  "  Cov_unpop@5:", round(sum(pd.Series(af).isin(lt)) / len(lt), 4))
         # top-20:
         be = list(set([item for sublist in scores20_ind1 for item in sublist]))
         af = list(set([item for sublist in scores20_ind_new for item in sublist]))
-        st.write("Recall@20:", round(best_result[4], 4), "  MMR@20:", round(best_result[5], 4),
+        st.write("Recall@20:", round(best_result[4], 4), "  MRR@20:", round(best_result[5], 4),
                  "  Cov_unpop@5:", round(sum(pd.Series(af).isin(lt)) / len(lt), 4))
 
         st.write("## Top-5 recommendations for user",user,":",
